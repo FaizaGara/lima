@@ -72,8 +72,10 @@
         <item value="hyphenWordAlternatives"/>
         <item value="idiomaticAlternatives"/>
         <item value="defaultProperties"/>
-        <item value="SpecificEntitiesModex"/>
+        <item value="SpecificEntitiesModexForLimaserver"/>
         <item value="specificEntitiesXmlLoggerForLimaserver"/>
+        <!--item value="viterbiPostagger-int-none"/-->
+        <!--item value="limaserverHandler"/-->
       </list>
     </group>
     <group name="easy" class="ProcessUnitPipeline" >
@@ -327,6 +329,7 @@
       <param key="defaultPropertyFile" value="LinguisticProcessings/fre/default-fre.dat"/>
       <list name="skipUnmarkStatus">
         <item value="t_dot_number"/>
+        <item value="t_integer"/>
         <item value="t_capital_1st"/>
       </list>
     </group>
